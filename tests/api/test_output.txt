@@ -82,4 +82,4 @@ FAILED tests/api/test_docker_endpoints.py::test_predict_is_up - assert None
 FAILED tests/api/test_docker_endpoints.py::test_predict_is_dict - assert None
 FAILED tests/api/test_docker_endpoints.py::test_predict_has_key - assert None
 FAILED tests/api/test_docker_endpoints.py::test_cloud_api_predict - assert None
-================== 6 failed, 12 passed, 10 warnings in 14.91s ==================
+================== 6 failed, 12 passed, 10 warnings in 22.31s ==================
