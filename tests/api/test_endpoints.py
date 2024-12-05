@@ -14,7 +14,7 @@ test_params = {
 @pytest.mark.asyncio
 async def test_root_is_up():
     from taxifare.api.fast import app
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    async with AsyncClient(app=app, base_url="http://test") as ac: # La versión de httpx: Si la versión instalada de httpx no soporta app=app como argumento en make test_api_root solucion: pip install  "httpx<0.28"
         response = await ac.get("/")
     assert response.status_code == 200
 
